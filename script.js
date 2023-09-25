@@ -197,7 +197,7 @@ generateBtn.addEventListener('click', () => {
     }
     console.log("COmpulsory adddition done");
 
-    //remaining adddition
+    //remaining addition
     for(let i=0; i<passwordLength-funcArr.length; i++) {
         let randIndex = getRndInteger(0 , funcArr.length);
         console.log("randIndex" + randIndex);
